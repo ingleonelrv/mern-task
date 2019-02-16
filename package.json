@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +13,17 @@
   "dependencies": {
     "express": "^4.16.4",
     "mongoose": "^5.4.13",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "nodemon": "^1.18.10",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
   }
 }
